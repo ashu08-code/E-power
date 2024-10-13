@@ -1,0 +1,382 @@
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+}
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutsus_sectiomain .abouts_flexpart {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .aboutsus_sectiomain .aboutus_paragraph {
+    width: 100%;
+    text-align: center;
+  }
+  .aboutsus_sectiomain .first_imgpart {
+    width: 48%;
+  }
+  .aboutsus_sectiomain .aboutus_topicarea {
+    width: 46%;
+  }
+  .footer_sectionmain .footer_endflex {
+    justify-content: end;
+  }
+
+  .oursolution_mainsection .automatestrung_box {
+    bottom: 55px;
+}
+
+.aboutsus_sectiomain::after{
+  display: none;
+}
+.contact_sectiontopmain:before{
+  display: none;
+}
+
+}
+
+@media screen and (max-width: 1170px) {
+  .leftcontact_detailpart {
+    padding: 34px 25px;
+  }
+  .oursolution_mainsection .oursolution_para { 
+    bottom: 15%;
+    width: 35%;
+    left: 5%;
+}
+
+}
+@media screen and (max-width: 1070px) {
+  .header_videoflexcontent{
+flex-direction: column;
+align-items: center;
+  }
+  .banner_mainsection h2{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .banner_mainsection .banner_detail{
+    position: relative;
+    width: 100%;
+    right: auto;
+    text-align: center;
+  }
+  .bannervideopart{
+    margin-bottom: 25px;
+  }
+  .header_videoflexcontent .videoright_content{
+    background: #0065DBCC;
+border-radius: 24px 24px 0px 0px;
+text-align: center;
+margin-left: 0;
+  }
+  .header_videoflexcontent .videoright_content p{
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 991px) {
+  .aboutsus_sectiomain::after {
+    display: none;
+  }
+  .contact_usbgpart {
+    width: 100%;
+    height: 500px;
+  }
+
+  .contact_rightformaprt {
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+    padding: 25px;
+  }
+  .leftcontact_detailpart {
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 24px; 
+  }
+
+  .contact_sectiontopmain:before {
+    display: none;
+  }
+
+  .innerbanner_contentpart { 
+    width: 60%;
+    margin-left: 30px;
+}
+.oursolution_mainsection .heading_topic h3{
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+.oursolution_mainsection .heading_topic a svg{
+  height: 28px;
+  width: 28px;
+  margin-left: 15px;
+}
+.aboutsus_sectiomain .aboutus_topicarea a svg {
+  height: 28px;
+  width: 28px;
+}
+.oursolution_mainsection .automatestrung_box {
+  padding: 20px 18px;
+}
+.oursolution_mainsection .oursolution_para{
+  font-size: 16px;
+  bottom: 12%;
+}
+.reference_mainsection .reference_rightcontent .heading_topic a svg{
+  height: 28px;
+  width: 28px;
+}
+.reference_mainsection .refrence_flexpart{
+  flex-direction: column;
+}
+.reference_mainsection .left_sectionimg{
+  width: 100%;
+}
+.reference_mainsection .reference_rightcontent{
+  width: 100%;
+}
+.reference_mainsection .left_sectionimg .images_flexpart{
+  width: 48%;
+}
+
+.header_mainsection .open_menubtn{
+display: block;
+}
+.header_mainsection .header_navlist{
+  display: none;
+}
+
+
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 767px) {
+  .aboutsus_sectiomain .aboutus_topicarea {
+    width: 100%;
+  }
+  .aboutsus_sectiomain .aboutus_topicarea .overlap_imgpart .over_imgsection {
+    border-radius: 24px;
+    padding: 14px 45px 20px 45px;
+    text-align: center;
+    position: relative;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .aboutsus_sectiomain .aboutus_topicarea .overlap_imgpart .over_imgsection h5 {
+    margin-top: -20px;
+  }
+  .aboutsus_sectiomain .aboutus_topicarea .bg_image {
+    margin-top: 25px;
+  }
+  .aboutsus_sectiomain .first_imgpart {
+    width: 100%;
+  }
+  .aboutsus_sectiomain .first_imgpart img {
+    height: 450px;
+    margin-bottom: 20px;
+  }
+  .aboutsus_sectiomain .aboutus_topicarea .bg_image {
+    height: 450px;
+  }
+  .aboutsus_sectiomain .aboutus_topicarea h3 {
+    margin-bottom: 10px;
+  }
+
+  .aboutsus_sectiomain .aboutus_topicarea .overlap_imgpart {
+    margin-bottom: 0;
+  }
+
+  .footer_sectionmain .footer_endflex {
+    justify-content: start;
+    gap: 30px;
+  }
+
+  .contact_rightformaprt .inputfield_flex {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .innerbanner_bgimage{
+    background: transparent;
+  }
+  .innerbanner_contentpart{
+    width: 100%;
+    margin-left: 0;
+  }
+  .innertext_bannermidsection::after{
+    display: none;
+  }
+  .innertext_bannermidsection::before{
+    display: none;
+  }
+
+  .oursolution_mainsection .oursolution_bgimage{
+    background: transparent;
+  }
+  .oursolution_mainsection .automatestrung_box{
+    display: none;
+  }
+  .oursolution_mainsection .oursolution_para{
+    display: none;
+  }
+
+  .aboutsus_sectiomain{
+    padding-top: 60px;
+  }
+  .aboutsus_sectiomain{
+    margin-bottom: 60px;
+  }
+  .oursolution_mainsection .heading_topic{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .oursolution_mainsection .oursolution_bgimage{
+    padding: 0%;
+    margin-bottom: 60px;
+  }
+  .services_sectionmain{
+    margin-bottom: 60px;
+  }
+  .innertext_bannermidsection{
+    margin-bottom: 25px;
+  }
+  .reference_mainsection .reference_rightcontent .heading_topic{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .reference_mainsection .reference_rightcontent p{
+    text-align: center;
+  }
+  .reference_mainsection{
+    margin-bottom: 50px;
+  }
+  .footer_sectionmain{
+    margin-top: 80px;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .footer_sectionmain .footer_endflex {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .footer_sectionmain .footer_endflex p {
+    margin-bottom: 0;
+  }
+
+  .bannervideopart{
+    width: 100%;
+  }
+  .banner_mainsection h2{
+    font-size: 38px;
+  }
+
+  .reference_mainsection .left_sectionimg .images_flexpart .second_img{
+    display: none;
+  }
+  .reference_mainsection .left_sectionimg .images_flexpart{
+    width: 100%;
+  }
+  .reference_mainsection .refeence_pointscards{
+    right: 12px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+}
+
+@media screen and (max-width: 425px) {
+  .aboutsus_sectiomain .aboutus_paragraph p {
+    font-size: 16px;
+  }
+
+  .contact_rightformaprt .formsend_btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .leftcontact_detailpart img {
+    height: 40px;
+    width: 40px;
+  }
+  .leftcontact_detailpart h4 {
+    font-size: 16px;
+  }
+  .leftcontact_detailpart p {
+    font-size: 14px;
+  }
+  .contact_rightformaprt p {
+    font-size: 16px;
+  }
+
+  .innerbanner_contentpart .learnmore_btn{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .innerbanner_contentpart { 
+    padding: 35px 25px;
+  }
+  .innerbanner_contentpart h2{
+    font-size: 24px;
+  }
+  .innerbanner_contentpart p{
+    font-size: 14px;
+  }
+
+  .reference_mainsection .refeence_pointscards{
+    width: 92%;
+  }
+
+  .bannervideopart .play-button-wrapper img {
+    height: 44px;
+    width: 44px;
+  }
+  .bannervideopart{
+    padding: 20px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+}
+
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 320px) {
+}

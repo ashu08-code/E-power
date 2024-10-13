@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Epower</title>
+    <!-- Bootstrap Css -->
+    <link href="vendor/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Style Css -->
+    <link rel="stylesheet" href="vendor/css/style.css" />
+    <link rel="stylesheet" href="vendor/css/responsive.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Font Awesome -->
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Owl Silider -->
+    <link
+      rel="stylesheet"
+      ="text/css"
+      href="vendor\dist\assets\owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor\dist\assets\owl.theme.default.min.css"
+    />
+    <!-- Animation -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/Slick/animate.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css" rel="stylesheet" /> -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet" /> -->
+  </head>
+  <body>
+    <!-- hedaer start -->
+
+    <div class="header_mainsection">
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-5 col-lg-4 col-md-11 col-sm-11 col-10">
+             <a href="#">  <img src="./images/main-logo.png" alt=""> </a>
+            </div>
+            <div class="col-xl-7 col-lg-8 col-md-1 col-sm-1 col-2">
+               <div class="header_navlist">
+                  <ul>
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#">Dienstleistungen</a></li>
+                     <li><a href="#">Über uns</a></li>
+                     <li><a href="#">Referenzen</a></li>
+                     <li><button class="button_main">Kontakt</button></li>
+                      
+                  </ul>
+               </div>
+               <button class="open_menubtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                  <img src="./images/menu (2).png" alt="">
+                </button>
+            </div>
+         </div>
+      </div>
+
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+         <div class="offcanvas-header">
+           <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="./images/main-logo.png" alt=""></h5>
+           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         </div>
+         <div class="offcanvas-body">
+            <div class="menusidebar_navlist">
+               <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Dienstleistungen</a></li>
+                  <li><a href="#">Über uns</a></li>
+                  <li><a href="#">Referenzen</a></li>
+                  <li><button class="button_main">Kontakt</button></li>
+                   
+               </ul>
+            </div>
+         
+         </div>
+       </div>
+
+   </div>
+
+    <!-- Header Bottom New End-->
+    <!-- Banner Home -->
+   <div class="banner_mainsection">
+      <div class="container">
+         <h2>Lorem Ipsum ist lediglich ein</h2>
+
+         <div class="banner_detail">
+            <h5>is simply dummy text of the printing and t</h5>
+            <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sok. 
+            </p>
+         </div>
+
+         <div class="header_videoflexcontent">
+            <div class="bannervideopart">
+               <h3>10M+</h3>
+               <h6>is simply dummy text</h6>
+
+               <div class="video_part">
+                  <!-- <img src="./images/Video-img.png" alt=""> -->
+                  <div class="video-first-inner">
+                     <!-- <video id="my-video" class="video-js" controls preload="auto" poster="./images/Play.png" data-setup='' loop>
+                        <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4" type='video/mp4'>
+                        </video> -->
+
+                        <div class="video-container" id="video-container">
+                           <video controls id="video" preload="metadata" poster="./images/videoImage (1).png">
+                              <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4" type="video/mp4">
+                           </video>
+                     
+                           <div class="play-button-wrapper">
+                              <div title="Play video" class="play-gif" id="circle-play-b">
+                                 <!-- SVG Play Button -->
+                                 <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+                                    <path d="M40 0a40 40 0 1040 40A40 40 0 0040 0zM26 61.56V18.44L64 40z" />
+                                 </svg> -->
+                                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+                                    <g filter="url(#filter0_b_2002_431)">
+                                    <rect width="72" height="72" rx="36" fill="white" fill-opacity="0.3"/>
+                                    <rect x="1" y="1" width="70" height="70" rx="35" stroke="url(#paint0_linear_2002_431)" stroke-width="2"/>
+                                    <path d="M29.7145 24.4374C30.3111 24.1458 30.9375 24 31.5938 24C32.2798 24.0292 33.5625 24.4695 34.0696 24.6707C37.4105 25.9538 43.794 30.1531 46.2401 32.7193C46.6577 33.1276 47.1051 33.6233 47.2244 33.74C47.7315 34.3815 48 35.1689 48 36.0175C48 36.7728 47.7614 37.531 47.2841 38.1434C47.1946 38.26 46.777 38.7558 46.4489 39.0766L46.2699 39.2515C43.7642 41.9052 37.5298 45.9004 34.3679 47.1835C34.3679 47.2126 32.4886 47.9708 31.5938 48H31.4744C30.1023 48 28.8196 47.2418 28.1634 46.017C27.8054 45.3463 27.4773 43.3925 27.4474 43.3633C27.179 41.6136 27 38.9337 27 35.9854C27 32.8943 27.179 30.0948 27.5071 28.3742C27.5071 28.3451 27.8352 26.7704 28.044 26.2454C28.3722 25.4872 28.9687 24.8457 29.7145 24.4374Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <filter id="filter0_b_2002_431" x="-12" y="-12" width="96" height="96" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="6"/>
+                                    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2002_431"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_2002_431" result="shape"/>
+                                    </filter>
+                                    <linearGradient id="paint0_linear_2002_431" x1="36" y1="-8.5" x2="36" y2="72" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="white"/>
+                                    <stop offset="1" stop-color="white" stop-opacity="0"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg> -->
+                                 <img src="./images/Play.png" alt="">
+                              </div>
+                           </div>
+                        </div>
+
+                  </div>
+               </div>
+
+            </div>
+
+            <div class="videoright_content">
+               <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                  standard dum</p>
+            </div>
+
+         </div>
+
+      </div>
+   </div>   
+    <!-- Banner Home End -->
+
+    <!-- ----- About Us Section ---- -->
+    <div class="aboutsus_sectiomain">
+      <div class="container">
+        <div class="abouts_flexpart">
+          <div class="first_imgpart">
+            <img src="./images/about-us1.png" alt="" />
+          </div>
+          <div class="aboutus_topicarea">
+            <h3>Über uns</h3>
+            <a href="#"
+              >Lern mehr
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+              >
+                <rect
+                  x="0.5"
+                  y="0.5"
+                  width="39"
+                  height="39"
+                  rx="19.5"
+                  stroke="#0052B4"
+                />
+                <path
+                  d="M13 20H27"
+                  stroke="#0052B4"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M23 16L27 20L23 24"
+                  stroke="#0052B4"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+
+            <div class="overlap_imgpart">
+              <img class="bg_image" src="./images/about-us2.png" alt="" />
+              <div class="over_imgsection">
+                <img src="./images/Icon1.png" alt="" />
+                <h5>Wasserkraft</h5>
+              </div>
+            </div>
+          </div>
+          <div class="aboutus_paragraph">
+            <p>
+              Lorem Ipsum ist lediglich ein Blindtext der Druck- und
+              Satzindustrie. Lorem Ipsum ist seit dem 15. Jahrhundert der
+              Standard-Dummy-Text der Branche, als ein unbekannter Drucker eine
+              Galeere mit Schriften nahm und sie vermischte, um ein Musterbuch
+              für Schriften herzustellen. Es hat nicht nur fünf Jahrhunderte,
+              sondern auch den Sprung in den Es hat nicht nur fünf Jahrhunderte,
+              sondern auch den Sprung in den elektronischen Schriftsatz im
+              Wesentlichen unverändert überstanden. Es wurde in den 1960er
+              elektronischen Schriftsatz im Wesentlichen unverändert
+              überstanden. Es wurde in den 1960er Jahren mit der
+              Veröffentlichung von Letraset-Blättern mit Lorem-Ipsum-Passa
+            </p>
+            <p>
+              Lorem Ipsum ist lediglich ein Blindtext der Druck- und
+              Satzindustrie. Lorem Ipsum ist seit dem 15. Jahrhundert der
+              Standard-Dummy-Text der Branche, als ein unbekannter Druck
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----- About Us Section End ---- -->
+
+    <!-- ------Our Solution Section------- -->
+
+    <div class="oursolution_mainsection">
+      <div class="container">
+         <div class="oursolution_bgimage">
+            <div class="">
+               <div class="heading_topic">
+                  <h5>unsere Lösung</h5>
+                  <div class="topics_botomborder"></div>
+                  <h3>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</h3>
+                  <a href="#">
+                     <div class="learn_more"> <span>Learn More</span> <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                           height="40" viewBox="0 0 40 40" fill="none">
+                           <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#0052B4"></rect>
+                           <path d="M13 20H27" stroke="#0052B4" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                           <path d="M23 16L27 20L23 24" stroke="#0052B4" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                        </svg></div>
+                  </a>
+               </div>
+
+               <div class="oursolution_para">is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                  has been the</div>
+
+                  <div class="automatestrung_box">
+                     <img src="./images/sol-Icon.png" alt="">
+                     <h5>Automatisierung</h5>
+                  </div>
+            </div>
+         </div>
+ 
+      </div>
+   </div>
+
+    <!-- ------Our Solution Section End------- -->
+
+    <!-- Services Section -->
+    <div class="services_sectionmain">
+      <div class="container">
+        <div class="heading_topic">
+          <h5>Dienstleistungen</h5>
+          <div class="topics_botomborder"></div>
+          <h3>
+            is simply dummy text of the printing and typesetting industry.
+          </h3>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="service_cardsmain1">
+              <div class="services_card1">
+                <img src="./images/service_Icon1.png" alt="" />
+                <h5>Automatisierung</h5>
+                <p>
+                  Lorem Ipsum ist lediglich ein Blindtext der Druck- und
+                  Satzindustrie. Lorem Ipsum ist seit dem 15. Jahrhundert der
+                  Standard-Dummy-Text 
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="service_cardsmain1">
+              <div
+                class="services_card1"
+                style="background-color: #2a7bd9; color: #fff"
+              >
+                <img src="./images/service_Icon2.png" alt="" />
+                <h5>Kommunikationssystem</h5>
+                <p>
+                  Lorem Ipsum ist lediglich ein Blindtext der Druck- und Satzin
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="service_cardsmain1">
+              <div class="services_card1">
+                <img src="./images/service_Icon1.png" alt="" />
+                <h5>Elektroinstallation</h5>
+                <p>
+                  Lorem Ipsum ist lediglich ein Blindtext der Druck- und
+                  Satzindustrie. Lorem Ipsum ist seit dem 15.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="service_cardsmain1">
+              <div
+                class="services_card1"
+                style="background-color: #081f54; color: #fff"
+              >
+                <img src="./images/service_Icon2.png" alt="" />
+                <h5>ElektroiIT-Netzwerksy stemenstallation</h5>
+                <p>
+                  Lorem Ipsum ist lediglich ein Blindtext der Druck- und
+                  Satzindustrie. Lorem Ipsum ist seit dem 15. ,
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="service_cardsmain1">
+              <div class="services_card1" style="background-color: #d9d9d9">
+                <img src="./images/service_Icon2.png" alt="" />
+                <h5>TV- und Alarmanlagen</h5>
+                <p>
+                  Lorem Ipsum ist lediglich ein Blindtext der Druck- und
+                  Satzindustrie. Lorem Ipsum ist seit dem
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="service_cardsmain1">
+              <div
+                class="services_card1"
+                style="background-color: #081f54; color: #fff"
+              >
+                <img src="./images/service_Icon2.png" alt="" />
+                <h5>Installationskontrolle</h5>
+                <p>
+                  Lorem Ipsum ist lediglich ein Blindtext der Druck- und
+                  Satzindustrie. Lorem Ipsum ist seit dem 15.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section End-->
+
+    <!-- ---- Middle Banner Section ---- -->
+    <div class="innertext_bannermidsection">
+      <div class="container">
+        <div class="innerbanner_bgimage">
+          <div class="innerbanner_contentpart">
+            <h2>
+              is simply dummy text of the printing and typesetting industr
+            </h2>
+            <p>
+              Lorem Ipsum ist lediglich ein Blindtext der Druck- und
+              Satzindustrie. Lorem Ipsum ist seit dem 15. Jahrhundert der
+              Standard-Dummy-Text der Branche, als ein unbekannter Druck
+            </p>
+
+            <a href="#">
+              <div class="learnmore_btn">
+                <span>Lern mehr</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                >
+                  <rect width="40" height="40" rx="20" fill="#0052B4" />
+                  <path
+                    d="M13 20H27"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M23 16L27 20L23 24"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---- Middle Banner Section End ---- -->
+
+    <!-- Reference Section -->
+    <div class="reference_mainsection">
+      <div class="container">
+         <div class="refrence_flexpart">
+
+            <div class="left_sectionimg">
+               <!-- <img src="./images/refer_section1.png" alt=""> -->
+                <div class="images_flexpart">
+                  <img src="./images/keyImage(1).png" alt="">
+                  <img class="second_img" src="./images/referimage (1).png" alt="">
+                </div>
+
+                <div class="refeence_pointscards">
+                  <div class="point_cards1"><img src="./images/number.png" alt=""> <p>Lorem Ipsum ist lediglich ein Blindtext der Druck- und Satzindustrie. </p> </div>
+                  <div class="point_cards1"><img src="./images/number (2).png" alt=""> <p>Lorem Ipsum ist lediglich ein Blindtext der Druck- und Satzindustrie. </p> </div>
+                </div>
+
+            </div>
+
+            <div class="reference_rightcontent">
+               <div class="heading_topic">
+                  <h5>Referenzen</h5>
+                  <div class="topics_botomborder"></div>
+                  <h3>is simply dummy text of the printing and typesetting i</h3>
+                  <a href="#">
+                     <div class="learn_more">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                           viewBox="0 0 40 40" fill="none">
+                           <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#0052B4"></rect>
+                           <path d="M13 20H27" stroke="#0052B4" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                           <path d="M23 16L27 20L23 24" stroke="#0052B4" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                        </svg></div>
+                  </a>
+               </div>
+               <p>Lorem Ipsum ist lediglich ein Blindtext der Druck- und Satzindustrie. Lorem Ipsum ist seit dem 15.
+                  Jahrhundert der Standard-Dummy-Text der Branche, als ein unbekannt Lorem Ipsum ist lediglich ein Blindtext der Druck- und Satzindustrie. Lorem Ipsum ist seit dem 15.
+                  Jahrhundert der Standard-Dummy-Text der Branche, als ein unbekannt</p>
+
+            </div>
+
+         </div>
+      </div>
+
+
+   </div>  
+    <!-- Reference Section End-->
+
+    <!-- ------ Contact Us Section -------- -->
+    <div class="contact_sectiontopmain">
+      <div class="container">
+        <div class="contactus_sectionmain">
+          <div class="contact_usbgpart"></div>
+          <div class="leftcontact_detailpart">
+            <div class="detail_flexlist">
+              <img src="./images/Ellipse 1.png" alt="" />
+              <div>
+                <h4>Albert Johns</h4>
+                <p>albertjohns@gmail.com</p>
+              </div>
+            </div>
+            <div class="detail_flexlist">
+              <img src="./images/mdi_shovel.png" alt="" />
+              <div>
+                <p>+64 1233 4567 890</p>
+              </div>
+            </div>
+            <div class="detail_flexlist">
+              <img src="./images/mdi_shovel (1).png" alt="" />
+              <div>
+                <p>George Street Huntingdon, Vereinigtes Königreich</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact_rightformaprt">
+            <h3>Kontakt</h3>
+            <p>
+              Lorem Ipsum ist lediglich ein Blindtext der Druck- und
+              Satzindustrie. Lorem Ipsum ist seit dem 15.
+            </p>
+
+<form action="">
+            <div class="inputfield_flex">
+              <input type="text" placeholder="Ihr Name" />
+              <input type="text" placeholder="Ihre E-Mail-Adresse" />
+            </div>
+            <textarea name="" id="" rows="5" placeholder="Frage"></textarea>
+            <button class="formsend_btn">
+              Frage senden
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+              >
+                <rect width="40" height="40" rx="20" fill="white" />
+                <path
+                  d="M13 20H27"
+                  stroke="#0052B4"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M23 16L27 20L23 24"
+                  stroke="#0052B4"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+         </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------ Contact Us Section End -------- -->
+
+    <!-- ---- Footer ---- -->
+    <div class="footer_sectionmain">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6 col-12">
+            <img src="./images/Logo_epower_DEF 1.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              Kommodo
+            </p>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+            <h6>Information</h6>
+            <a href="#">
+              <p>Branchenanalysen</p>
+            </a>
+            <a href="#">
+              <p>Neuigkeiten und Veröffentlichungen</p>
+            </a>
+            <a href="#">
+              <p>Veranstaltungen</p>
+            </a>
+            <a href="#">
+              <p>VeranstaltungenÜber uns</p>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+            <h6>Information</h6>
+            <a href="#">
+              <p>Dienstleistungen</p>
+            </a>
+            <a href="#">
+              <p>Über uns</p>
+            </a>
+            <a href="#">
+              <p>Referenzen</p>
+            </a>
+            <a href="#">
+              <p>Unterstützung</p>
+            </a>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-12">
+            <h6>Kontakt</h6>
+            <a href="#">
+              <p>Hauptquartier</p>
+            </a>
+            <a href="#">
+              <p>Manager</p>
+            </a>
+            <a href="#">
+              <p>Verkäufe</p>
+            </a>
+            <a href="#">
+              <p>Warum wir</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer_copyright_part">
+          <div class="row">
+            <div class="col-xl-6 col-lg-4 col-md-3 col-sm-12 col-12">
+              <p>Urheberrecht ©2024</p>
+            </div>
+            <div class="col-xl-6 col-lg-8 col-md-9 col-sm-12 col-12">
+              <div class="footer_endflex">
+                <p>Bedingungen</p>
+                <p>Privatsphäre</p>
+                <p>Richtlinien und Cookie-Richtlinie</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- Footer End ---- -->
+
+    <script src="vendor/js/app.js" defer></script>
+    <script src="vendor/jquery/jquery-3.6.0.min.js"></script>
+    <script src="vendor/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"  crossorigin="anonymous"></script>
+    <!-- <script src="vendor/dist/owl.carousel.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script> -->
+
+    <script>
+      const video = document.getElementById("video");
+const circlePlayButton = document.getElementById("circle-play-b");
+
+function togglePlay() {
+	if (video.paused || video.ended) {
+		video.play();
+	} else {
+		video.pause();
+	}
+}
+
+circlePlayButton.addEventListener("click", togglePlay);
+video.addEventListener("playing", function () {
+	circlePlayButton.style.opacity = 0;
+});
+video.addEventListener("pause", function () {
+	circlePlayButton.style.opacity = 1;
+});
+    </script>
+  </body>
+</html>
